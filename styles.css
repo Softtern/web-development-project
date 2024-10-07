@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* Subtle gradient */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1abc9c;
+    transform: scale(1.1);
+}
+
+/* Page Header */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #34495e;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+/* Content */
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Form Styling */
+form {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #16a085;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
